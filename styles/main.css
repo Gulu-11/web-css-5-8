@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #141414;
+}
+.fullMainDiv {
+    display: flex;
+}
+.asideConteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 224px;
+    background-color: #222224;
+    border-right: 1px solid #434343;
+    padding: 16px 16px 0 16px;
+}
+.siteLogo {
+    width: 192px;
+    height: 46px;
+}
+.companyDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+.companyText {
+    font-size: 14px;
+    font-weight: 500;
+    color: #989898;
+}
+a {
+    text-decoration: none;
+}
+.menuDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.generalBut {
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #FAE101;
+    border: none;
+    border-radius: 12px;
+    text-align: left;
+}
+.menuIcon {
+    width: 24px;
+    height: 24px;
+}
+.text-icon-div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.generaltext {
+    font-weight: 500;
+    color: #000000;
+}
+.member-teams-custom-But {
+    height: 40px;
+    padding: 8px 16px;
+    background-color: unset;
+    border: none;
+}
+.menuText {
+    font-weight: 500;
+    color: white;
+}
+
+.accountDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+.accountText {
+    font-size: 14px;
+    font-weight: 500;
+    color: #989898;
+}
+.prof-works-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.MainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+.headerDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px 16px 16px 366px;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #434343;
+}
+.devonDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.devonDiv :first-child {
+    font-weight: 500;
+    color: white;
+}
+.devonImg {
+    width: 40px;
+    height: 40px;
+}
+.searchMainDiv {
+    display: flex;
+    max-width: 484px;
+    height: 40px;
+    width: 100%;
+} 
+form {
+    display: flex;
+    max-width: 484px;
+    width: 100%;
+}
+#searchInp {
+    max-width: 436px;
+    width: 100%;
+    height: 40px;
+    background-color: unset;
+    border: none;
+    border-top: 1px solid #FAE101;
+    border-bottom: 1px solid #FAE101;
+    border-left: 1px solid #FAE101;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 8px 10px;
+    outline: none;
+    color: white;
+}
+#searchInp::placeholder {
+    font-size: 14px;
+    color: #FAE101;
+}
+.searchIconbut {
+    display: flex;
+    width: 48px;
+    height: 40px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAE101;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.searchIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1088px;
+    width: 100%;
+    padding: 19px 170px 19px 40px;
+    background-color: #222224;
+    border-radius: 16px;
+}
+.giftingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.giftingText {
+    font-size: 48px;
+    font-weight: 600;
+    color: #FAE101;
+}
+.giftingDiv :nth-child(2) {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    color: white;
+    width: 247px;
+}
+.italicText {
+    color: #B7B7B7;
+    line-height: 19px;
+    width: 314px;
+}
+i span {
+    font-weight: 600;
+}
+.grinchMoney {
+    width: 283px;
+    height: 269px;
+}
+.section-2 {
+    display: flex;
+    max-width: 1088px;
+    width: 100%;
+}
+.buttonListDiv {
+    display: flex;
+    gap: 12px;
+}
+.listLogo {
+    width: 32px;
+    height: 32px;
+}
+.AllButton a {
+    font-weight: 500;
+    color: #000000;
+}
+.listButtons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px 8px 12px;
+    background-color: #222224;
+    border: none;
+    border-radius: 24px;
+}
+.listButtons a {
+    font-weight: 500;
+    color: white;
+}
+.divForHover :hover {
+    background-color: #FAE101;
+}
+.yellowButton {
+    background-color: #FAE101;
+}
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1088px;
+    width: 100%;
+}
+.flashDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.flashtext {
+    font-weight: 600;
+    color: white;
+}
+.saleDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 40px;
+}
+.saleNowText {
+    font-weight: 600;
+    color: #FAE101;
+}
+.deadlineDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.endingText {
+    font-weight: 600;
+    color: #797979;
+}
+.timer-Div {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.timeDiv {
+    background-color: #FAE101;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #000000;
+}
+.doubleDot {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+.salecardsDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.salecard {
+    display: flex;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid #FAE101;
+    border-radius: 12px;
+    background-color: #222224;
+}
+.grinch {
+    width: 154px;
+    height: 171px;
+}
+.salecardInfoMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 228px;
+}
+.salecardInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.starsDiv {
+    display: flex;
+    gap: 2px;
+}
+.starIcon {
+    width: 20px;
+    height: 20px;
+}
+.stoleText {
+    font-weight: 600;
+    color: white;
+    line-height: 24px;
+    width: 150px;
+}
+
+.grinchGotText {
+    font-size: 14px;
+    color: #797979;
+    width: 139px;
+    line-height: 18px;
+}
+.priceDiv {
+    display: flex;
+    gap: 4px;
+}
+.priceDiv :first-child {
+    color: #FAE101;
+}
+.priceDiv :last-child {
+    color: #797979;
+}
+.addcardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAE101;
+    border: none;
+    border-radius: 4px;
+    width: 154px;
+    height: 40px;
+}
+.addcardButton a {
+    font-weight: 600;
+    color: #000000;
+}
+
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1088px;
+    width: 100%;
+}
+.Themes-potterDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.cardTitle {
+    font-weight: 600;
+    color: white;
+}
+.sitesCardsDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.siteCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid #FAE101;
+    border-radius: 12px;
+    padding: 16px;
+}
+.starIcon-2 {
+    width: 24px;
+    height: 24px;
+}
+.stoleText-2 {
+    font-weight: 600;
+    color: white;
+}
+.grinchGotText-2 {
+    font-size: 14px;
+    color: #797979;
+    line-height: 18px;
+    width: 200px;
+}
+.grinch-2 {
+    width: 222px;
+    height: 171px;
+}
